@@ -1,0 +1,41 @@
+{
+    "homepage": "https://github.com/Wind4/vlmcsd",
+    "description": "KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin)",
+    "version": "svn1112",
+    "url": "https://github.com/Wind4/vlmcsd/releases/download/svn1112/binaries.tar.gz",
+    "hash": "a2fc70c4a22786076a09b597cdbfbfa3e02ce7c88c3693f30d1d54047f1bdb24",
+    "extract_dir": "binaries\\Windows\\intel",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Get-ChildItem \"$dir\" | Where-Object {$_.Name -notmatch '^vlmcsd*-Windows-x64.exe$' } | Remove-Item",
+                "Rename-Item \"$dir\\vlmcs-Windows-x64.exe\" -NewName \"$dir\\vlmcs.exe\"",
+                "Rename-Item \"$dir\\vlmcsd-Windows-x64.exe\" -NewName \"$dir\\vlmcsd.exe\""
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "Get-ChildItem \"$dir\" | Where-Object {$_.Name -notmatch '^vlmcsd*-Windows-x86.exe$' } | Remove-Item",
+                "Rename-Item \"$dir\\vlmcs-Windows-x86.exe\" -NewName \"$dir\\vlmcs.exe\"",
+                "Rename-Item \"$dir\\vlmcsd-Windows-x86.exe\" -NewName \"$dir\\vlmcsd.exe\""
+            ]
+        }
+    },
+    "bin": [
+        [
+            "vlmcsd.exe",
+            "vlmcsd"
+        ],
+        [
+            "vlmcs.exe",
+            "vlmcs"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Wind4/vlmcsd/releases/latest",
+        "re": "\\/releases\\/tag\\/([svn\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Wind4/vlmcsd/releases/download/$version/binaries.tar.gz"
+    }
+}
