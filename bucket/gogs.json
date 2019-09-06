@@ -2,6 +2,7 @@
     "homepage": "https://gogs.io",
     "description": "Gogs is a painless self-hosted Git service. ",
     "version": "0.11.91",
+    "license": "MIT",
     "extract_dir": "gogs",
     "depends": "git",
     "suggest": {
