@@ -1,20 +1,20 @@
 {
     "homepage": "https://github.com/xtaci/kcptun",
     "description": "A Stable & Secure Tunnel based on KCP with N:M multiplexing and FEC. Available for ARM, MIPS, 386 and AMD64",
-    "version": "20191105",
+    "version": "20191107",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xtaci/kcptun/releases/download/v20191105/kcptun-windows-amd64-20191105.tar.gz",
-            "hash": "8aa2f04c03377c8a29cfe005fe900bfc379317940a5afaf82752d4584274efe5",
+            "url": "https://github.com/xtaci/kcptun/releases/download/v20191107/kcptun-windows-amd64-20191107.tar.gz",
+            "hash": "c54063f2591090b5064235c6e716c0f88ce2550f899f442365d3fb76d4be8666",
             "pre_install": [
                 "Rename-Item \"$dir\\client_windows_amd64.exe\" -NewName \"$dir\\client.exe\"",
                 "Rename-Item \"$dir\\server_windows_amd64.exe\" -NewName \"$dir\\server.exe\""
             ]
         },
         "32bit": {
-            "url": "https://github.com/xtaci/kcptun/releases/download/v20191105/kcptun-windows-386-20191105.tar.gz",
-            "hash": "b89d1e2276ca2480d97dbb04a56916abd6b5a921788481e9658390bfbe73016b",
+            "url": "https://github.com/xtaci/kcptun/releases/download/v20191107/kcptun-windows-386-20191107.tar.gz",
+            "hash": "60ea20f36cfc157f60470d061cc4632a8c2be609a61743c0f3714fc9be12f09d",
             "pre_install": [
                 "Rename-Item \"$dir\\client_windows_386.exe\" -NewName \"$dir\\client.exe\"",
                 "Rename-Item \"$dir\\server_windows_386.exe\" -NewName \"$dir\\server.exe\""
