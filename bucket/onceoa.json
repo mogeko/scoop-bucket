@@ -1,15 +1,15 @@
 {
     "homepage": "http://onceoa.com/",
     "description": "OnceOA可自由定义和扩展数据库，创建自定义表、字段。快速建立进销存，客户关系，人力资源管理等各类企业管理系统，数据可转化为文字、图表、动画等直接在OnceVI网页报表上展示。 ",
-    "version": "build.3150",
+    "version": "build.3156",
     "license": {
         "identifier": "Freeware",
         "url": "http://onceoa.com/pay/price"
     },
     "architecture": {
         "64bit": {
-            "url": "http://onceoa.com/download/build.3150.onceoa-windows-x64.zip",
-            "hash": "e939d06cceac3a77918b57871bbdb0ed82785af438c8b853fa9989a3f4b08bee",
+            "url": "http://onceoa.com/download/build.3156.onceoa-windows-x64.zip",
+            "hash": "fdc09e273d9579ca80faab15f6fb3a99cb72f113f028dff18c326bc559a98495",
             "extract_dir": "onceai"
         }
     },
