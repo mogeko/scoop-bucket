@@ -1,15 +1,15 @@
 {
     "homepage": "http://onceoa.com/",
     "description": "OnceDoc 是 OnceAir Nas 内置的知识和文档管理模块，可直接在线编辑文档、表格、Markdown笔记甚至程序代码等，支持全文搜索，具有丰富的权限控制，您可以方便地构建自己的分享文件夹。通过OnceOA客户端，OnceDoc中的团队文件夹可与本地文件时时双向同步，实现多重备份。 ",
-    "version": "build.3247",
+    "version": "build.3252",
     "license": {
         "identifier": "Freeware",
         "url": "http://onceoa.com/pay/price"
     },
     "architecture": {
         "64bit": {
-            "url": "http://onceoa.com/download/build.3247.oncedoc-windows-x64.zip",
-            "hash": "a410394e001e170a61280a74a9d589fddc6a6fc383f6a03bcba6e18468778efb",
+            "url": "http://onceoa.com/download/build.3252.oncedoc-windows-x64.zip",
+            "hash": "2152ac006c643623c63e6f705ea8c19116f31a5428a6ba81bfddb060d622ec7b",
             "extract_dir": "onceai"
         }
     },
