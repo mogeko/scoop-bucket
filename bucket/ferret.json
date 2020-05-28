@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.montferret.dev/",
     "description": "Declarative web scraping",
-    "version": "0.11.0",
+    "version": "0.11.1",
     "license": "Apache-2.0",
-    "url": "https://github.com/MontFerret/ferret/releases/download/v0.11.0/ferret_windows_x86_64.zip",
-    "hash": "53c0156f141cdad6449192a57c3dee345881a1f6ed6817373df714cb71fcc543",
+    "url": "https://github.com/MontFerret/ferret/releases/download/v0.11.1/ferret_windows_x86_64.zip",
+    "hash": "48bb9acbae2e4347b12e0ff90302f59d8b286133ffa31780c50950c0fc7c9c15",
     "bin": "ferret.exe",
     "checkver": {
         "github": "https://github.com/MontFerret/ferret"
